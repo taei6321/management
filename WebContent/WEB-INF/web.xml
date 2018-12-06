@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>namowebiz_management</display-name>
+  
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/loginServlet.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>AttendanceClick</servlet-name>
+  	<servlet-class>com.namowebiz.click.AttendanceClick</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AttendanceClick</servlet-name>
+  	<url-pattern>/AttendanceClick.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>LeaveWorkClick</servlet-name>
+  	<servlet-class>com.namowebiz.click.LeaveWorkClick</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LeaveWorkClick</servlet-name>
+  	<url-pattern>/LeaveWorkClick.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>OutsideClick</servlet-name>
+  	<servlet-class>com.namowebiz.click.OutsideClick</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>OutsideClick</servlet-name>
+  	<url-pattern>/OutsideClick.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>CombackClick</servlet-name>
+  	<servlet-class>com.namowebiz.click.CombackClick</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CombackClick</servlet-name>
+  	<url-pattern>/CombackClick.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<url-pattern>/UpdateServlet.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<url-pattern>/DeleteServlet.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>ManageServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.ManageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ManageServlet</servlet-name>
+  	<url-pattern>/ManageServlet.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>InsertServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.InsertServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>InsertServlet</servlet-name>
+  	<url-pattern>/InsertServlet.do</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+  	<servlet-name>JxlExcel</servlet-name>
+  	<servlet-class>com.namowebiz.excel.JxlExcel</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>JxlExcel</servlet-name>
+  	<url-pattern>/JxlExcel.do</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+  	<servlet-name>StatsServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.StatsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>StatsServlet</servlet-name>
+  	<url-pattern>/StatsServlet.do</url-pattern>
+  </servlet-mapping>
+  
+ <servlet>
+  	<servlet-name>ReasonServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.ReasonServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ReasonServlet</servlet-name>
+  	<url-pattern>/ReasonServlet.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>HolidayServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.HolidayServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HolidayServlet</servlet-name>
+  	<url-pattern>/HolidayServlet.do</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+  	<servlet-name>BusinessTripServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.BusinessTripServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>BusinessTripServlet</servlet-name>
+  	<url-pattern>/BusinessTripServlet.do</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+  	<servlet-name>PwCheckServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.PwCheckServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>PwCheckServlet</servlet-name>
+  	<url-pattern>/PwCheckServlet.do</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+  	<servlet-name>SettingSevelet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.SettingSevelet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SettingSevelet</servlet-name>
+  	<url-pattern>/SettingSevelet.do</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+  	<servlet-name>ModifyServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.ModifyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ModifyServlet</servlet-name>
+  	<url-pattern>/ModifyServlet.do</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>InfoServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.InfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>InfoServlet</servlet-name>
+  	<url-pattern>/InfoServlet.do</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  	<servlet-name>FindReDateServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.FindReDateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FindReDateServlet</servlet-name>
+  	<url-pattern>/FindReDateServlet.do</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  	<servlet-name>CheckBoxServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.CheckBoxServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CheckBoxServlet</servlet-name>
+  	<url-pattern>/CheckBoxServlet.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>ManageAcceptServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.ManageAcceptServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ManageAcceptServlet</servlet-name>
+  	<url-pattern>/ManageAcceptServlet.do</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>ManageReasonServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.ManageReasonServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ManageReasonServlet</servlet-name>
+  	<url-pattern>/ManageReasonServlet.do</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+  	<servlet-name>FindBusiDateServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.FindBusiDateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FindBusiDateServlet</servlet-name>
+  	<url-pattern>/FindBusiDateServlet.do</url-pattern>
+  </servlet-mapping>
+   
+     <servlet>
+  	<servlet-name>BusinessManageServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.BusinessManageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>BusinessManageServlet</servlet-name>
+  	<url-pattern>/BusinessManageServlet.do</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+  	<servlet-name>FindReDateMngServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.FindReDateMngServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FindReDateMngServlet</servlet-name>
+  	<url-pattern>/FindReDateMngServlet.do</url-pattern>
+  </servlet-mapping>    
+  
+      <servlet>
+  	<servlet-name>HolidayInsertServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.HolidayInsertServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HolidayInsertServlet</servlet-name>
+  	<url-pattern>/HolidayInsertServlet.do</url-pattern>
+  </servlet-mapping>   
+  
+        <servlet>
+  	<servlet-name>PublicHolidayServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.PublicHolidayServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>PublicHolidayServlet</servlet-name>
+  	<url-pattern>/PublicHolidayServlet.do</url-pattern>
+  </servlet-mapping>   
+  
+          <servlet>
+  	<servlet-name>HolidayMngServlet</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.HolidayMngServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HolidayMngServlet</servlet-name>
+  	<url-pattern>/HolidayMngServlet.do</url-pattern>
+  </servlet-mapping>   
+  
+<servlet>
+  	<servlet-name>ManageReDate</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.ManageReDate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ManageReDate</servlet-name>
+  	<url-pattern>/ManageReDate.do</url-pattern>
+  </servlet-mapping>
+  
+<servlet>
+  	<servlet-name>MailSend</servlet-name>
+  	<servlet-class>com.namowebiz.mail.MailSend</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MailSend</servlet-name>
+  	<url-pattern>/MailSend.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>IDCheck</servlet-name>
+  	<servlet-class>com.namowebiz.servlet.IDCheck</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>IDCheck</servlet-name>
+  	<url-pattern>/IDCheck.do</url-pattern>
+  </servlet-mapping>
+  
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>ipCheck.jsp</welcome-file>
+    <welcome-file>flot.jsp</welcome-file>
+    <welcome-file>forms.jsp</welcome-file>
+    <welcome-file>list.jsp</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>morris.jsp</welcome-file>
+    <welcome-file>business.jsp</welcome-file>
+    <welcome-file>dayDetails.jsp</welcome-file>
+    <welcome-file>dayDetailsModal.jsp</welcome-file>
+    <welcome-file>detailed.jsp</welcome-file>
+    <welcome-file>logout.jsp</welcome-file>
+    <welcome-file>manageRe.jsp</welcome-file>
+    <welcome-file>morrisManage.jsp</welcome-file>
+    <welcome-file>profile.jsp</welcome-file>
+    <welcome-file>pwCheck.jsp</welcome-file>
+    <welcome-file>requestItem.jsp</welcome-file>
+    <welcome-file>setting.jsp</welcome-file>
+    <welcome-file>userInsert.jsp</welcome-file>
+    <welcome-file>userUpdate.jsp</welcome-file>
+    <welcome-file>holiday.jsp</welcome-file>
+  </welcome-file-list>
+  
+</web-app>
